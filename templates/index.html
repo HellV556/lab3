@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href='/static/style.css'/>
+<head>
+    <meta charset="UTF-8">
+    <title>Trigonometry</title>
+    <h1 class="title">Trigonometric functions</h1>
+</head>
+<body>
+<!-- <link rel="stylesheet" href='/static/style.css'/> -->
+<form action="" method="post" class="enter">
+    <div>
+        <select name="func" required="true" class="choose">
+            <option value="sin">sin</option>
+            <option value="cos">cos</option>
+            <option value="tg">tg</option>
+            <option value="ctg">ctg</option>
+        </select>
+        <input type="number" name="num_2" placeholder="value" step="any" value = {{val}} class="choose">
+        <select name="units" class="choose" >
+            <option value="degrees">degrees</option>
+            <option value="radiabs">radians</option>
+        </select>
+        <input type="submit" value="=">
+    </div>
+    <p>accuracy
+    <input type="number" name="accuracy" value="3">
+    </p>
+</form>
+<h1>{{ans}}</h1>
+</body>
+<footer class="contacts">
+    <a href="hello" style="color: aliceblue;" >contacts</a>
+</footer>
+</html>

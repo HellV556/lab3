@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    color:chartreuse;
+    background-color: black;
+}
+.enter{
+    text-align: center;
+}
+.choose{
+    height: 16pt;
+    text-align: center;
+}
+.contacts{
+    background-color: black;
+    text-wrap: 10%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    padding-right: 5%;
+    width: 93.5%;
+    height: 5%;
+}
+
